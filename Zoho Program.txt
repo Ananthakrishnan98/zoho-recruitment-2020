@@ -1,0 +1,33 @@
+import java.util.*;
+public class Zohotest
+{
+	public static void main(String[] args) {
+	      
+              Scanner in=new Scanner(System.in);
+	      	      
+	      int input=in.nextInt();
+	    
+	      for (int i = 1; i <= (input+1); i++)
+                     {
+                         int n = input+1;
+   
+                         for (int j = 1; j<= n - i; j++)
+                             { 
+                                   System.out.print(" "); 
+                
+                             } 
+                         for (int k = i; k >= 1; k--)
+                             {
+                                  System.out.print(k-1);
+                             }
+                        for (int l = 2; l <= i; l++) 
+                             { 
+                               System.out.print(l-1); 
+                             } 
+                               System.out.println(); 
+            
+                      } 
+   
+            System.out.println();
+        }
+}
